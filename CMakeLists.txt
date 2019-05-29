@@ -1,5 +1,6 @@
-project(variant CXX)
 cmake_minimum_required(VERSION 2.8)
+
+project(variant CXX)
 
 add_library(variant INTERFACE)
 if(NOT CMAKE_CROSSCOMPILING OR THIRD_PARTY_INCLUDES_AS_SYSTEM)
